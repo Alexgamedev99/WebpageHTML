@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 15px monospace;
+}
+body{
+   /* background-color: rgb(89,65,101); */
+    background-image: radial-gradient(circle, rgb(172,121,216), rgb(70,40,95), rgb(34,19,47));
+}
+.Title{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border: 3px solid rgb(33,11,50);
+    width: 50%;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 25%;
+    border-radius: 5px;
+    /*background-color: rgb(185,125,47);*/
+    background-image:radial-gradient(circle, rgb(223,205,78), rgb(171,156,61), rgb(119,93,31)) ;
+    box-shadow: 2px 2px 10px 4px;
+}
+.Title > h1{
+    font: 35px monospace;
+}
+
+#Navbar{
+    border: 3px solid rgb(33,11,50);
+    position: relative;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+    /*background-color: rgb(185,125,47); */
+    background-image:radial-gradient(circle, rgb(171,156,61), rgb(159,123,39), rgb(119,93,31)) ;
+    box-shadow: 2px 2px 10px 4px;
+    
+}
+
+#Navbar > ul{
+    margin-left: 45%;
+}
+
+#Navbar > ul > li{
+    display: inline;
+    text-align: center;
+    border-right: 3px solid rgb(47,27,65); 
+    
+}
+
+#Navbar > ul > li:last-child{
+    border-right: none;
+}
+
+#Navbar > ul > li:hover{
+   background-color: rgb(47,27,65);
+    color: rgb(185,125,47);
+    width: 100%;
+}
+
+#Navbar > ul > li > a{
+text-align: center; 
+padding: 0px;
+margin-right: 2px;
+}
+
+.MainDiv{
+   /* background-color: rgb(185,125,47); */
+     background-image:radial-gradient(circle, rgb(223,205,78), rgb(171,156,61), rgb(119,93,31)) ;
+    border: 3px solid rgb(33,11,50);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 2px 2px 10px 4px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.MainDiv > a{
+ color: black;
+  
+}
+
+@media screen and (max-width: 500px){
+    
+    .Title{
+       
+    }
+    .Title > h1{
+        font-size: 18px;
+    }
+    #Navbar{
+        width: 100%;
+    }
+    #Navbar > ul{
+        margin-left: 0%;
+    }
+    #Navbar > ul > li{
+        
+         display: block;
+    }
+}
