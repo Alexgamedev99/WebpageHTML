@@ -30,7 +30,7 @@ body{
     position: relative;
     margin-top: 15px;
     border-radius: 5px;
-    width: 100%;
+    width: 99.6%;
     /*background-color: rgb(185,125,47); */
     background-image:radial-gradient(circle, rgb(171,156,61), rgb(159,123,39), rgb(119,93,31)) ;
     box-shadow: 2px 2px 10px 4px;
